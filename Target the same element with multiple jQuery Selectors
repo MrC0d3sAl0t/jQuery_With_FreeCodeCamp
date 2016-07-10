@@ -1,6 +1,7 @@
 
 <script>
   $(document).ready(function() {
+<!-- This code demostrates how to target elements by type: button(html element) .btn(CSS element) and #target1 (id selector element) --> 
 <--! Each jQuery selector has its own class within the addClass() function -->
     $("button").addClass("animated");
     $(".btn").addClass("shake")
